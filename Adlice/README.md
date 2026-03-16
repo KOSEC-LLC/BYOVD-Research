@@ -19,7 +19,7 @@ Install the vulnerable driver with the following commands in a command-line with
 
 ```bash
 > sc.exe create RootLaser type=kernel binPath=C:\Path\To\Driver\RootLaser.sys
-> sc.exe start RootLaset
+> sc.exe start RootLaser
 ```
 
 Once installed, ensure you are in an **Administrator** command prompt, and run the compiled PoC to connect to the driver and test the IOCTLs.
